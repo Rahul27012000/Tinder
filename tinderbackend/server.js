@@ -6,7 +6,9 @@ import Cors from "cors"
 //App config
 const app = express();
 const port = process.env.PORT || 8001
-const connection_url = "mongodb+srv://admin:raj843998652@cluster0.gu2lj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const connection_url = "url_Name"
+
+//You can add connection link over here
 
 //MiddleWares
 app.use(express.json())

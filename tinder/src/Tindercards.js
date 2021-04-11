@@ -4,7 +4,29 @@ import './Tindercards.css'
 import axios from './axios'
 
 function Tindercards() {
-    const [people, setpeople] = useState([]);
+    const [people, setpeople] = useState([
+        {
+            name:"Elon Musk",
+            imgUrl:"https://wallpapercave.com/wp/wp2048432.jpg"
+        },
+        {
+            name:"Jeff",
+            imgUrl:"https://wallpapercave.com/wp/wp4025589.jpg"
+
+        },
+        {
+            name:"Ambani",
+            imgUrl:"https://wallpapercave.com/wp/wp6910753.jpg"
+        },
+        {
+            name:"Modi",
+            imgUrl:"https://wallpapercave.com/wp/wp6727827.jpg"
+        },
+        {
+            name:"Zukerberg",
+            imgUrl:"https://wallpapercave.com/wp/wp2126141.jpg"
+        }
+    ]);
 
     useEffect(() => {
         async function fetchData(){
